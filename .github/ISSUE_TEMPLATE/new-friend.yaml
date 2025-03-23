@@ -1,0 +1,28 @@
+name: 新朋友
+description: 你也想成为纳西妲的朋友吗？
+title: "[New Friend] （你希望显示为友链标题的文字）"
+labels: ["enhancement"]
+body:
+  - type: input
+    attributes:
+      label: 网站链接
+      description: "前面无需添加https://，并去除末尾的/"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 介绍
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 头像
+      description: "1:1效果最好，URL或文件都行"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 背景
+      description: "可选，URL或文件都行"
+    validations:
+      required: false
